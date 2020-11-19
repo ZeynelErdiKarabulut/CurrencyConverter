@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!--Brand theme-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--Texts-->
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
+
+        <!--Status bar and navigation-->
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/window_background_color</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+
+        <!--Windows-->
+        <item name="android:windowBackground">@color/window_background_color</item>
+
+        <!--Hide actionbar-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
